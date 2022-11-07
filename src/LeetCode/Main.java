@@ -12,6 +12,7 @@ public class Main {
     }
 
     public static int romanInteger(String roman) {
+        int a;
         Map<Character, Integer> numbers = new HashMap<>();
         numbers.put('I', 1);
         numbers.put('V', 5);
